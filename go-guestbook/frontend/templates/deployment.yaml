@@ -26,4 +26,4 @@ spec:
         - name: PORT
           value: "8080"
         - name: GUESTBOOK_API_ADDR
-          value: go-guestbook-backend:8080
+          value: backend:8080
