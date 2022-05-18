@@ -25,7 +25,7 @@ FROM gcr.io/distroless/base
 ENV GOTRACEBACK=single
 
 WORKDIR /app
-COPY ../static /app/static
+COPY static /app/static
 COPY templates /app/templates
 COPY --from=build /app/frontend /app/frontend
 ENTRYPOINT ["/app/frontend"]
